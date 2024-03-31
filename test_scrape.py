@@ -37,8 +37,12 @@ for file in files:
             print(re.findall(r"(\d+(?:\.\d+)?)%", management_fee_data[0])[0])
 
     files_to_data[file] = {
-        "ptr": ptr_data,
-        "management_fee": management_fee_data,
+        "ptr": {
+            2021: ptr_data[0].split("\n")[0],
+            2022: ptr_data[0].split("\n")[1],
+            2023: ptr_data[0].split("\n")[2],
+        },
+        "management_fee": re.findall(r"(\d+(?:\.\d+)?)%", management_fee_data[0])[0],
     }
 
 with open("files_to_data.json", "w") as f:
