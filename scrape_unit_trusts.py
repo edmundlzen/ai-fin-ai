@@ -1,8 +1,10 @@
 import asyncio
 import json
 import os
+import re
 from playwright.async_api import async_playwright
 from tabulate import tabulate
+import camelot
 
 
 async def save_bytes_to_file(data, filename):
@@ -78,11 +80,57 @@ async def scrape_pb_unit_trusts():
 
 
 async def parse_pb_unit_trusts():
-    print("E")
+    files = os.listdir("pb_phs")
+    pb_funds_data = {}
+
+    for file in files:
+        tables = camelot.read_pdf(
+            f"pb_phs/{file}", pages="all", line_scale=100, split_text=True
+        )
+        ptr_data = None
+        management_fee_data = None
+
+        for table in tables:
+            if (table.df[0].str.contains("PTR \(time\)", case=False)).any():
+                for data in table.data:
+                    for item in data:
+                        if "PTR" in item:
+                            data.remove(item)
+                            ptr_data = data
+                            break
+
+                print(ptr_data[0].split("\n"))
+                continue
+
+            if (table.df[0].str.contains("Management fee", case=False)).any():
+                for data in table.data:
+                    for item in data:
+                        if "Management fee" in item:
+                            data.remove(item)
+                            management_fee_data = data
+                            break
+
+                print(re.findall(r"(\d+(?:\.\d+)?)%", management_fee_data[0])[0])
+
+        ptr = {}
+        starting_year = 2023
+        if data["ptr"] != None:
+            for i in range(len(data["ptr"][0].split("\n"))):
+                ptr[starting_year - i] = data["ptr"][0].split("\n")[i]
+        pb_funds_data[file] = {
+            "ptr": ptr,
+            "management_fee": re.findall(r"(\d+(?:\.\d+)?)%", management_fee_data[0])[
+                0
+            ],
+        }
+
+    with open("pb_funds_data.json", "w") as f:
+        json.dump(pb_funds_data, f, indent=4)
 
 
 async def main():
-    # await scrape_pb_unit_trusts()
+    # For PB Funds Data
+    await scrape_pb_unit_trusts()
     await parse_pb_unit_trusts()
 
 
