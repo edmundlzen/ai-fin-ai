@@ -1,0 +1,1412 @@
+{
+    "PB ASEAN DIVIDEND FUND": {
+        "ptr": {
+            "2023": "0.40",
+            "2022": "0.41",
+            "2021": "0.37"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PB ASEAN DIVIDEND FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ASEAN DIVIDEND FUND.pdf"
+    },
+    "PB ASEAN DIVIDEND SEQUEL FUND": {
+        "ptr": {
+            "2023": "0.67",
+            "2022": "0.32",
+            "2021": "0.57"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PB ASEAN DIVIDEND SEQUEL FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ASEAN DIVIDEND SEQUEL FUND.pdf"
+    },
+    "PB ASIA CONSUMER SECTOR FUND": {
+        "ptr": {
+            "2023": "0.46",
+            "2022": "0.42",
+            "2021": "0.22"
+        },
+        "management_fee": "1.70",
+        "fund_name": "PB ASIA CONSUMER SECTOR FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ASIA CONSUMER SECTOR FUND.pdf"
+    },
+    "PB ASIA EMERGING GROWTH FUND": {
+        "ptr": {
+            "2023": "0.76",
+            "2022": "0.83",
+            "2021": "0.93"
+        },
+        "management_fee": "1.70",
+        "fund_name": "PB ASIA EMERGING GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ASIA EMERGING GROWTH FUND.pdf"
+    },
+    "PB ASIA EQUITY FUND": {
+        "ptr": {
+            "2023": "0.95",
+            "2022": "0.84",
+            "2021": "1.25"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PB ASIA EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ASIA EQUITY FUND.pdf"
+    },
+    "PB ASIA PACIFIC DIVIDEND FUND": {
+        "ptr": {
+            "2023": "0.33",
+            "2022": "0.15",
+            "2021": "0.31"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PB ASIA PACIFIC DIVIDEND FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ASIA PACIFIC DIVIDEND FUND.pdf"
+    },
+    "PB ASIA PACIFIC ENTERPRISES FUND": {
+        "ptr": {
+            "2023": "0.34",
+            "2022": "0.30",
+            "2021": "0.81"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PB ASIA PACIFIC ENTERPRISES FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ASIA PACIFIC ENTERPRISES FUND.pdf"
+    },
+    "PB ASIA-30 EQUITY FUND": {
+        "ptr": {
+            "2023": "2.06",
+            "2022": "1.23",
+            "2021": "1.61"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PB ASIA-30 EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ASIA-30 EQUITY FUND.pdf"
+    },
+    "PB CHINA ASEAN EQUITY FUND": {
+        "ptr": {
+            "2023": "1.85",
+            "2022": "0.80",
+            "2021": "1.10"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PB CHINA ASEAN EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB CHINA ASEAN EQUITY FUND.pdf"
+    },
+    "PB CHINA AUSTRALIA EQUITY FUND": {
+        "ptr": {
+            "2023": "1.33",
+            "2022": "0.48",
+            "2021": "0.49"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PB CHINA AUSTRALIA EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB CHINA AUSTRALIA EQUITY FUND.pdf"
+    },
+    "PB CHINA PACIFIC EQUITY FUND": {
+        "ptr": {
+            "2023": "2.84",
+            "2022": "1.47",
+            "2021": "2.66"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PB CHINA PACIFIC EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB CHINA PACIFIC EQUITY FUND.pdf"
+    },
+    "PB DIVIDEND BUILDER EQUITY FUND": {
+        "ptr": {
+            "2023": "1.10",
+            "2022": "0.63",
+            "2021": "0.48"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PB DIVIDEND BUILDER EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PB DIVIDEND BUILDER EQUITY FUND.pdf"
+    },
+    "PB EURO PACIFIC EQUITY FUND": {
+        "ptr": {
+            "2023": "0.52",
+            "2022": "0.42",
+            "2021": "0.97"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PB EURO PACIFIC EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB EURO PACIFIC EQUITY FUND.pdf"
+    },
+    "PB GLOBAL EQUITY FUND": {
+        "ptr": {
+            "2023": "1.13",
+            "2022": "0.89",
+            "2021": "1.34"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PB GLOBAL EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB GLOBAL EQUITY FUND.pdf"
+    },
+    "PB GLOBAL OPPORTUNITIES FUND": {
+        "ptr": {
+            "2023": "0.63",
+            "2022": "0.26",
+            "2021": "0.04"
+        },
+        "management_fee": "1.85",
+        "fund_name": "PB GLOBAL OPPORTUNITIES FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB GLOBAL OPPORTUNITIES FUND.pdf"
+    },
+    "PB GLOBAL TECHNOLOGY & HEALTHCARE FUND": {
+        "ptr": {
+            "2023": "1.03",
+            "2022": "1.93",
+            "2021": "1.49"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PB GLOBAL TECHNOLOGY & HEALTHCARE FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB GLOBAL TECHNOLOGY & HEALTHCARE FUND.pdf"
+    },
+    "PB GREATER CHINA A-SHARES FUND": {
+        "ptr": {
+            "2023": "1.28",
+            "2022": "0.50",
+            "2021": "0.43"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PB GREATER CHINA A-SHARES FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB GREATER CHINA A-SHARES FUND.pdf"
+    },
+    "PB GROWTH FUND": {
+        "ptr": {
+            "2023": "1.02",
+            "2022": "0.68",
+            "2021": "0.86"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PB GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PB GROWTH FUND.pdf"
+    },
+    "PB GROWTH SEQUEL FUND": {
+        "ptr": {
+            "2023": "0.45",
+            "2022": "0.59",
+            "2021": "0.62"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PB GROWTH SEQUEL FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PB GROWTH SEQUEL FUND.pdf"
+    },
+    "PB ISLAMIC ASIA EQUITY FUND": {
+        "ptr": {
+            "2023": "1.56",
+            "2022": "0.84",
+            "2021": "1.31"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PB ISLAMIC ASIA EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ISLAMIC ASIA EQUITY FUND.pdf"
+    },
+    "PB ISLAMIC ASIA STRATEGIC SECTOR FUND": {
+        "ptr": {
+            "2023": "0.50",
+            "2022": "0.45",
+            "2021": "0.46"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PB ISLAMIC ASIA STRATEGIC SECTOR FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ISLAMIC ASIA STRATEGIC SECTOR FUND.pdf"
+    },
+    "PB ISLAMIC EQUITY FUND": {
+        "ptr": {
+            "2023": "0.28",
+            "2022": "0.22",
+            "2021": "0.09"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PB ISLAMIC EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PB ISLAMIC EQUITY FUND.pdf"
+    },
+    "PB ISLAMIC SMALLCAP FUND": {
+        "ptr": {
+            "2023": "0.59",
+            "2022": "0.25",
+            "2021": "0.15"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PB ISLAMIC SMALLCAP FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB ISLAMIC SMALLCAP FUND.pdf"
+    },
+    "PB SINGAPORE ADVANTAGE-30 EQUITY FUND": {
+        "ptr": {
+            "2023": "0.51",
+            "2022": "0.43",
+            "2021": "0.55"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PB SINGAPORE ADVANTAGE-30 EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB SINGAPORE ADVANTAGE-30 EQUITY FUND.pdf"
+    },
+    "PB SMALLCAP GROWTH FUND": {
+        "ptr": {
+            "2023": "0.29",
+            "2022": "0.19",
+            "2021": "0.12"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PB SMALLCAP GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB SMALLCAP GROWTH FUND.pdf"
+    },
+    "PB SUSTAINABLE GROWTH FUND": {
+        "ptr": {},
+        "management_fee": "1.60",
+        "fund_name": "PB SUSTAINABLE GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PB SUSTAINABLE GROWTH FUND.pdf"
+    },
+    "PB U.S. EAGLE FUND": {
+        "ptr": {
+            "2023": "3.53",
+            "2022": "1.04"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PB U.S. EAGLE FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB U.S. EAGLE FUND.pdf"
+    },
+    "PB VIETNAM GLOBAL 40 FUND": {
+        "ptr": {
+            "2023": "1.32",
+            "2022": "0.72",
+            "2021": "0.56"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PB VIETNAM GLOBAL 40 FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PB VIETNAM GLOBAL 40 FUND.pdf"
+    },
+    "PUBLIC ADVANTAGE GROWTH EQUITY FUND": {
+        "ptr": {
+            "2023": "1.73",
+            "2022": "1.08",
+            "2021": "0.51"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ADVANTAGE GROWTH EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ADVANTAGE GROWTH EQUITY FUND.pdf"
+    },
+    "PUBLIC AGGRESSIVE GROWTH FUND": {
+        "ptr": {
+            "2023": "0.48",
+            "2022": "0.38",
+            "2021": "0.36"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC AGGRESSIVE GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC AGGRESSIVE GROWTH FUND.pdf"
+    },
+    "PUBLIC ASEAN GROWTH FUND": {
+        "ptr": {
+            "2023": "0.35",
+            "2022": "0.34",
+            "2021": "0.68"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC ASEAN GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ASEAN GROWTH FUND.pdf"
+    },
+    "PUBLIC ASIA ITTIKAL FUND": {
+        "ptr": {
+            "2023": "0.23",
+            "2022": "0.49",
+            "2021": "0.58"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC ASIA ITTIKAL FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ASIA ITTIKAL FUND.pdf"
+    },
+    "PUBLIC ASIA PACIFIC ALPHA-40 FUND": {
+        "ptr": {
+            "2023": "0.85"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC ASIA PACIFIC ALPHA-40 FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ASIA PACIFIC ALPHA-40 FUND.pdf"
+    },
+    "PUBLIC ASIA PACIFIC FOCUS FUND": {
+        "ptr": {
+            "2023": "1.10"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC ASIA PACIFIC FOCUS FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ASIA PACIFIC FOCUS FUND.pdf"
+    },
+    "PUBLIC AUSTRALIA EQUITY FUND": {
+        "ptr": {
+            "2023": "0.50",
+            "2022": "0.38",
+            "2021": "0.38"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC AUSTRALIA EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC AUSTRALIA EQUITY FUND.pdf"
+    },
+    "PUBLIC CHINA ACCESS EQUITY FUND": {
+        "ptr": {
+            "2023": "0.56",
+            "2022": "0.33",
+            "2021": "0.42"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC CHINA ACCESS EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC CHINA ACCESS EQUITY FUND.pdf"
+    },
+    "PUBLIC CHINA ITTIKAL FUND": {
+        "ptr": {
+            "2023": "0.21",
+            "2022": "0.52",
+            "2021": "0.37"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC CHINA ITTIKAL FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC CHINA ITTIKAL FUND.pdf"
+    },
+    "PUBLIC CHINA SELECT FUND": {
+        "ptr": {
+            "2023": "1.01",
+            "2022": "0.30",
+            "2021": "0.24"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC CHINA SELECT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC CHINA SELECT FUND.pdf"
+    },
+    "PUBLIC CHINA TITANS FUND": {
+        "ptr": {
+            "2023": "1.11",
+            "2022": "0.58",
+            "2021": "0.71"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC CHINA TITANS FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC CHINA TITANS FUND.pdf"
+    },
+    "PUBLIC DIVIDEND SELECT FUND": {
+        "ptr": {
+            "2023": "0.42",
+            "2022": "0.23",
+            "2021": "0.17"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC DIVIDEND SELECT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "SEMI-ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC DIVIDEND SELECT FUND.pdf"
+    },
+    "PUBLIC e-ARTIFICIAL INTELLIGENCE TECHNOLOGY FUND": {
+        "ptr": {
+            "2023": "1.25",
+            "2022": "0.66",
+            "2021": "0.49"
+        },
+        "management_fee": "1.85",
+        "fund_name": "PUBLIC e-ARTIFICIAL INTELLIGENCE TECHNOLOGY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-ARTIFICIAL INTELLIGENCE TECHNOLOGY FUND.pdf"
+    },
+    "PUBLIC e-ASIA EVOLVING GROWTH FUND": {
+        "ptr": {
+            "2023": "0.83"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC e-ASIA EVOLVING GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-ASIA EVOLVING GROWTH FUND.pdf"
+    },
+    "PUBLIC e-AVANTGARDE FOCUS FUND": {
+        "ptr": {
+            "2023": "1.19"
+        },
+        "management_fee": "1.75",
+        "fund_name": "PUBLIC e-AVANTGARDE FOCUS FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-AVANTGARDE FOCUS FUND.pdf"
+    },
+    "PUBLIC e-CARBON EFFICIENT FUND": {
+        "ptr": {
+            "2023": "0.94",
+            "2022": "0.57"
+        },
+        "management_fee": "1.85",
+        "fund_name": "PUBLIC e-CARBON EFFICIENT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-CARBON EFFICIENT FUND.pdf"
+    },
+    "PUBLIC e-ISLAMIC ASIA THEMATIC GROWTH FUND": {
+        "ptr": {
+            "2023": "1.01"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC e-ISLAMIC ASIA THEMATIC GROWTH FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-ISLAMIC ASIA THEMATIC GROWTH FUND.pdf"
+    },
+    "PUBLIC e-ISLAMIC GROWTH FUND": {
+        "ptr": {
+            "2023": "1.09"
+        },
+        "management_fee": "1.75",
+        "fund_name": "PUBLIC e-ISLAMIC GROWTH FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC e-ISLAMIC GROWTH FUND.pdf"
+    },
+    "PUBLIC e-ISLAMIC INNOVATIVE TECHNOLOGY FUND": {
+        "ptr": {
+            "2023": "0.58",
+            "2022": "0.25"
+        },
+        "management_fee": "1.85",
+        "fund_name": "PUBLIC e-ISLAMIC INNOVATIVE TECHNOLOGY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-ISLAMIC INNOVATIVE TECHNOLOGY FUND.pdf"
+    },
+    "PUBLIC e-ISLAMIC PIONEER ENTREPRENEUR 40 FUND": {
+        "ptr": {
+            "2023": "0.92",
+            "2022": "0.64"
+        },
+        "management_fee": "1.85",
+        "fund_name": "PUBLIC e-ISLAMIC PIONEER ENTREPRENEUR 40 FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-ISLAMIC PIONEER ENTREPRENEUR 40 FUND.pdf"
+    },
+    "PUBLIC e-ISLAMIC SUSTAINABLE MILLENNIAL FUND": {
+        "ptr": {
+            "2023": "0.62",
+            "2022": "1.37",
+            "2021": "1.25"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC e-ISLAMIC SUSTAINABLE MILLENNIAL FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-ISLAMIC SUSTAINABLE MILLENNIAL FUND.pdf"
+    },
+    "PUBLIC e-PIONEER ENTREPRENEUR FUND": {
+        "ptr": {
+            "2023": "0.64",
+            "2022": "0.36"
+        },
+        "management_fee": "1.85",
+        "fund_name": "PUBLIC e-PIONEER ENTREPRENEUR FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-PIONEER ENTREPRENEUR FUND.pdf"
+    },
+    "PUBLIC e-WHOLESALE SUSTAINABLE 20 FUND": {
+        "ptr": {},
+        "management_fee": "1.85",
+        "fund_name": "PUBLIC e-WHOLESALE SUSTAINABLE 20 FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC e-WHOLESALE SUSTAINABLE 20 FUND.pdf"
+    },
+    "PUBLIC EMERGING OPPORTUNITIES FUND": {
+        "ptr": {
+            "2023": "0.86",
+            "2022": "0.33",
+            "2021": "0.21"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC EMERGING OPPORTUNITIES FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC EMERGING OPPORTUNITIES FUND.pdf"
+    },
+    "PUBLIC EQUITY FUND": {
+        "ptr": {
+            "2023": "0.32",
+            "2022": "0.40",
+            "2021": "0.34"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC EQUITY FUND.pdf"
+    },
+    "PUBLIC FAR-EAST ALPHA-30 FUND": {
+        "ptr": {
+            "2023": "0.37",
+            "2022": "0.27",
+            "2021": "0.60"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC FAR-EAST ALPHA-30 FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC FAR-EAST ALPHA-30 FUND.pdf"
+    },
+    "PUBLIC FAR-EAST CONSUMER THEMES FUND": {
+        "ptr": {
+            "2023": "0.24",
+            "2022": "0.24",
+            "2021": "0.49"
+        },
+        "management_fee": "1.70",
+        "fund_name": "PUBLIC FAR-EAST CONSUMER THEMES FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC FAR-EAST CONSUMER THEMES FUND.pdf"
+    },
+    "PUBLIC FAR-EAST DIVIDEND FUND": {
+        "ptr": {
+            "2023": "0.42",
+            "2022": "0.25",
+            "2021": "0.66"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC FAR-EAST DIVIDEND FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC FAR-EAST DIVIDEND FUND.pdf"
+    },
+    "PUBLIC FAR-EAST PROPERTY & RESORTS FUND": {
+        "ptr": {
+            "2023": "0.17",
+            "2022": "0.14",
+            "2021": "0.10"
+        },
+        "management_fee": "1.70",
+        "fund_name": "PUBLIC FAR-EAST PROPERTY & RESORTS FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC FAR-EAST PROPERTY & RESORTS FUND.pdf"
+    },
+    "PUBLIC FAR-EAST SELECT FUND": {
+        "ptr": {
+            "2023": "1.24",
+            "2022": "0.67",
+            "2021": "1.16"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC FAR-EAST SELECT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC FAR-EAST SELECT FUND.pdf"
+    },
+    "PUBLIC FAR-EAST TELCO & INFRASTRUCTURE FUND": {
+        "ptr": {
+            "2023": "0.84",
+            "2022": "0.88",
+            "2021": "0.82"
+        },
+        "management_fee": "1.70",
+        "fund_name": "PUBLIC FAR-EAST TELCO & INFRASTRUCTURE FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC FAR-EAST TELCO & INFRASTRUCTURE FUND.pdf"
+    },
+    "PUBLIC FOCUS SELECT FUND": {
+        "ptr": {
+            "2023": "0.18",
+            "2022": "0.17",
+            "2021": "0.16"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC FOCUS SELECT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC FOCUS SELECT FUND.pdf"
+    },
+    "PUBLIC GLOBAL SELECT FUND": {
+        "ptr": {
+            "2023": "1.30",
+            "2022": "1.02",
+            "2021": "0.90"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC GLOBAL SELECT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC GLOBAL SELECT FUND.pdf"
+    },
+    "PUBLIC GREATER CHINA FUND": {
+        "ptr": {
+            "2023": "0.50",
+            "2022": "0.72",
+            "2021": "0.92"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC GREATER CHINA FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC GREATER CHINA FUND.pdf"
+    },
+    "PUBLIC GROWTH FUND": {
+        "ptr": {
+            "2023": "0.30",
+            "2022": "0.32",
+            "2021": "0.41"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC GROWTH FUND.pdf"
+    },
+    "PUBLIC HEALTHCARE-GLOBAL EQUITY FUND": {
+        "ptr": {
+            "2023": "2.66",
+            "2022": "1.91",
+            "2021": "2.28"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC HEALTHCARE-GLOBAL EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC HEALTHCARE-GLOBAL EQUITY FUND.pdf"
+    },
+    "PUBLIC INDEX FUND": {
+        "ptr": {
+            "2023": "0.15",
+            "2022": "0.11",
+            "2021": "0.12"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC INDEX FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC INDEX FUND.pdf"
+    },
+    "PUBLIC INDIA-GLOBAL EQUITY FUND": {
+        "ptr": {
+            "2023": "0.67",
+            "2022": "0.81",
+            "2021": "0.94"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC INDIA-GLOBAL EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC INDIA-GLOBAL EQUITY FUND.pdf"
+    },
+    "PUBLIC INDONESIA SELECT FUND": {
+        "ptr": {
+            "2023": "0.71",
+            "2022": "0.88",
+            "2021": "0.65"
+        },
+        "management_fee": "1.70",
+        "fund_name": "PUBLIC INDONESIA SELECT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC INDONESIA SELECT FUND.pdf"
+    },
+    "PUBLIC INDUSTRY GROWTH FUND": {
+        "ptr": {
+            "2023": "0.72",
+            "2022": "0.44",
+            "2021": "0.21"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC INDUSTRY GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC INDUSTRY GROWTH FUND.pdf"
+    },
+    "PUBLIC ISLAMIC ADVANTAGE GROWTH EQUITY FUND": {
+        "ptr": {
+            "2023": "0.21",
+            "2022": "0.06",
+            "2021": "0.09"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC ADVANTAGE GROWTH EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC ADVANTAGE GROWTH EQUITY FUND.pdf"
+    },
+    "PUBLIC ISLAMIC ALPHA-40 GROWTH FUND": {
+        "ptr": {
+            "2023": "0.17",
+            "2022": "0.29",
+            "2021": "0.28"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC ALPHA-40 GROWTH FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC ALPHA-40 GROWTH FUND.pdf"
+    },
+    "PUBLIC ISLAMIC ASEAN GROWTH FUND": {
+        "ptr": {
+            "2023": "1.66",
+            "2022": "1.06",
+            "2021": "1.35"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC ISLAMIC ASEAN GROWTH FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC ASEAN GROWTH FUND.pdf"
+    },
+    "PUBLIC ISLAMIC ASIA DIVIDEND FUND": {
+        "ptr": {
+            "2023": "0.43 ",
+            "2022": "0.38 ",
+            "2021": "0.38"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC ISLAMIC ASIA DIVIDEND FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC ASIA DIVIDEND FUND.pdf"
+    },
+    "PUBLIC ISLAMIC ASIA LEADERS EQUITY FUND": {
+        "ptr": {
+            "2023": "0.30",
+            "2022": "0.49",
+            "2021": "0.54"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC ISLAMIC ASIA LEADERS EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC ASIA LEADERS EQUITY FUND.pdf"
+    },
+    "PUBLIC ISLAMIC DIVIDEND FUND": {
+        "ptr": {
+            "2023": "0.18",
+            "2022": "0.11 ",
+            "2021": "0.07"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC DIVIDEND FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "SEMI-ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC DIVIDEND FUND.pdf"
+    },
+    "PUBLIC ISLAMIC EMERGING OPPORTUNITIES FUND": {
+        "ptr": {
+            "2023": "0.21",
+            "2022": "0.09",
+            "2021": "0.08"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC ISLAMIC EMERGING OPPORTUNITIES FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC EMERGING OPPORTUNITIES FUND.pdf"
+    },
+    "PUBLIC ISLAMIC ENTERPRISES EQUITY FUND": {
+        "ptr": {
+            "2023": "0.37",
+            "2022": "0.23",
+            "2021": "0.22"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC ENTERPRISES EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC ENTERPRISES EQUITY FUND.pdf"
+    },
+    "PUBLIC ISLAMIC EQUITY FUND": {
+        "ptr": {
+            "2023": "0.23",
+            "2022": "0.19",
+            "2021": "0.25"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC EQUITY FUND.pdf"
+    },
+    "PUBLIC ISLAMIC GLOBAL EQUITY FUND": {
+        "ptr": {
+            "2023": "0.66",
+            "2022": "1.14",
+            "2021": "0.92"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC ISLAMIC GLOBAL EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC GLOBAL EQUITY FUND.pdf"
+    },
+    "PUBLIC ISLAMIC GLOBAL SUSTAINABLE GROWTH FUND": {
+        "ptr": {},
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC ISLAMIC GLOBAL SUSTAINABLE GROWTH FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC GLOBAL SUSTAINABLE GROWTH FUND.pdf"
+    },
+    "PUBLIC ISLAMIC GROWTH & INCOME FUND": {
+        "ptr": {
+            "2023": "0.29",
+            "2022": "0.35",
+            "2021": "0.39"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC GROWTH & INCOME FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC GROWTH & INCOME FUND.pdf"
+    },
+    "PUBLIC ISLAMIC OPPORTUNITIES FUND": {
+        "ptr": {
+            "2023": "0.25",
+            "2022": "0.14",
+            "2021": "0.10"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC OPPORTUNITIES FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC OPPORTUNITIES FUND.pdf"
+    },
+    "PUBLIC ISLAMIC OPTIMAL EQUITY FUND": {
+        "ptr": {
+            "2023": "2.51",
+            "2022": "2.12",
+            "2021": "1.59"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC ISLAMIC OPTIMAL EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC OPTIMAL EQUITY FUND.pdf"
+    },
+    "PUBLIC ISLAMIC OPTIMAL GROWTH FUND": {
+        "ptr": {
+            "2023": "0.29",
+            "2022": "0.16",
+            "2021": "0.28"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC OPTIMAL GROWTH FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC OPTIMAL GROWTH FUND.pdf"
+    },
+    "PUBLIC ISLAMIC REGIONAL ESG FUND": {
+        "ptr": {},
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC ISLAMIC REGIONAL ESG FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC REGIONAL ESG FUND.pdf"
+    },
+    "PUBLIC ISLAMIC SAVINGS FUND": {
+        "ptr": {
+            "2023": "0.24",
+            "2022": "0.45",
+            "2021": "0.39"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC SAVINGS FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "SEMI-ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC SAVINGS FUND.pdf"
+    },
+    "PUBLIC ISLAMIC SECTOR SELECT FUND": {
+        "ptr": {
+            "2023": "0.30",
+            "2022": "0.20",
+            "2021": "0.43"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC SECTOR SELECT FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC SECTOR SELECT FUND.pdf"
+    },
+    "PUBLIC ISLAMIC SELECT ENTERPRISES FUND": {
+        "ptr": {
+            "2023": "0.41",
+            "2022": "0.57",
+            "2021": "0.44"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC SELECT ENTERPRISES FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ISLAMIC SELECT ENTERPRISES FUND.pdf"
+    },
+    "PUBLIC ISLAMIC SELECT TREASURES FUND": {
+        "ptr": {
+            "2023": "0.18",
+            "2022": "0.13",
+            "2021": "0.07"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ISLAMIC SELECT TREASURES FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC SELECT TREASURES FUND.pdf"
+    },
+    "PUBLIC ISLAMIC TREASURES GROWTH FUND": {
+        "ptr": {
+            "2023": "0.16",
+            "2022": "0.02",
+            "2021": "0.09"
+        },
+        "management_fee": "1.65",
+        "fund_name": "PUBLIC ISLAMIC TREASURES GROWTH FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC TREASURES GROWTH FUND.pdf"
+    },
+    "PUBLIC ISLAMIC U.S. EQUITY FUND": {
+        "ptr": {
+            "2023": "0.28",
+            "2022": "0.22",
+            "2021": "0.28"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC ISLAMIC U.S. EQUITY FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC ISLAMIC U.S. EQUITY FUND.pdf"
+    },
+    "PUBLIC ITTIKAL FUND": {
+        "ptr": {
+            "2023": "0.20",
+            "2022": "0.24",
+            "2021": "0.35"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ITTIKAL FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ITTIKAL FUND.pdf"
+    },
+    "PUBLIC ITTIKAL SEQUEL FUND": {
+        "ptr": {
+            "2023": "0.29",
+            "2022": "0.34",
+            "2021": "0.52"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC ITTIKAL SEQUEL FUND",
+        "shariah_compliant": "",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC ITTIKAL SEQUEL FUND.pdf"
+    },
+    "PUBLIC JAPAN GLOBAL EQUITY FUND": {
+        "ptr": {
+            "2023": "1.27",
+            "2022": "1.37",
+            "2021": "1.73"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC JAPAN GLOBAL EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC JAPAN GLOBAL EQUITY FUND.pdf"
+    },
+    "PUBLIC LIFESTYLE & TECHNOLOGY FUND": {
+        "ptr": {
+            "2023": "1.69",
+            "2022": "1.32",
+            "2021": "0.88"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC LIFESTYLE & TECHNOLOGY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC LIFESTYLE & TECHNOLOGY FUND.pdf"
+    },
+    "PUBLIC OPTIMAL EQUITY FUND": {
+        "ptr": {
+            "2023": "3.09",
+            "2022": "2.80",
+            "2021": "1.66"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC OPTIMAL EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC OPTIMAL EQUITY FUND.pdf"
+    },
+    "PUBLIC OPTIMAL GROWTH FUND": {
+        "ptr": {
+            "2023": "0.32",
+            "2022": "0.29",
+            "2021": "0.70"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC OPTIMAL GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC OPTIMAL GROWTH FUND.pdf"
+    },
+    "PUBLIC REGIONAL SECTOR FUND": {
+        "ptr": {
+            "2023": "1.16",
+            "2022": "0.42",
+            "2021": "0.58"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC REGIONAL SECTOR FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC REGIONAL SECTOR FUND.pdf"
+    },
+    "PUBLIC REGULAR SAVINGS FUND": {
+        "ptr": {
+            "2023": "0.21",
+            "2022": "0.11",
+            "2021": "0.05"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC REGULAR SAVINGS FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC REGULAR SAVINGS FUND.pdf"
+    },
+    "PUBLIC REGULAR SAVINGS SEQUEL FUND": {
+        "ptr": {
+            "2023": "0.50",
+            "2022": "0.21",
+            "2021": "0.20"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC REGULAR SAVINGS SEQUEL FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC REGULAR SAVINGS SEQUEL FUND.pdf"
+    },
+    "PUBLIC SAVINGS FUND": {
+        "ptr": {
+            "2023": "0.27",
+            "2022": "0.29",
+            "2021": "0.35"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC SAVINGS FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "ANNUAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC SAVINGS FUND.pdf"
+    },
+    "PUBLIC SECTOR SELECT FUND": {
+        "ptr": {
+            "2023": "0.42",
+            "2022": "0.30",
+            "2021": "0.24"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC SECTOR SELECT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC SECTOR SELECT FUND.pdf"
+    },
+    "PUBLIC SELECT ALPHA-30 FUND": {
+        "ptr": {
+            "2023": "0.35",
+            "2022": "0.52",
+            "2021": "0.24"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC SELECT ALPHA-30 FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC SELECT ALPHA-30 FUND.pdf"
+    },
+    "PUBLIC SELECT TREASURES EQUITY FUND": {
+        "ptr": {
+            "2023": "0.41",
+            "2022": "0.34",
+            "2021": "0.22"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC SELECT TREASURES EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC SELECT TREASURES EQUITY FUND.pdf"
+    },
+    "PUBLIC SINGAPORE EQUITY FUND": {
+        "ptr": {
+            "2023": "0.62",
+            "2022": "0.49",
+            "2021": "0.31"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC SINGAPORE EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC SINGAPORE EQUITY FUND.pdf"
+    },
+    "PUBLIC SMALLCAP FUND": {
+        "ptr": {
+            "2023": "0.15",
+            "2022": "0.14",
+            "2021": "0.08"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC SMALLCAP FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC SMALLCAP FUND.pdf"
+    },
+    "PUBLIC SOUTH-EAST ASIA SELECT FUND": {
+        "ptr": {
+            "2023": "0.36",
+            "2022": "0.65",
+            "2021": "0.42"
+        },
+        "management_fee": "1.60",
+        "fund_name": "PUBLIC SOUTH-EAST ASIA SELECT FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC SOUTH-EAST ASIA SELECT FUND.pdf"
+    },
+    "PUBLIC STRATEGIC GROWTH FUND": {
+        "ptr": {
+            "2023": "0.31",
+            "2022": "0.11",
+            "2021": "0.21"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC STRATEGIC GROWTH FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "4\n(High)",
+        "phs_en": "phs_PUBLIC STRATEGIC GROWTH FUND.pdf"
+    },
+    "PUBLIC STRATEGIC SMALLCAP FUND": {
+        "ptr": {
+            "2023": "0.52",
+            "2022": "0.45",
+            "2021": "0.29"
+        },
+        "management_fee": "1.50",
+        "fund_name": "PUBLIC STRATEGIC SMALLCAP FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC STRATEGIC SMALLCAP FUND.pdf"
+    },
+    "PUBLIC U.S. EQUITY FUND": {
+        "ptr": {
+            "2023": "2.74",
+            "2022": "2.39",
+            "2021": "2.54"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC U.S. EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC U.S. EQUITY FUND.pdf"
+    },
+    "PUBLIC VIETNAM-GLOBAL EQUITY FUND": {
+        "ptr": {
+            "2023": "0.62",
+            "2022": "0.74",
+            "2021": "0.45"
+        },
+        "management_fee": "1.80",
+        "fund_name": "PUBLIC VIETNAM-GLOBAL EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC VIETNAM-GLOBAL EQUITY FUND.pdf"
+    },
+    "PUBLIC WORLDWIDE EQUITY FUND": {
+        "ptr": {
+            "2023": "3.89",
+            "2022": "1.86",
+            "2021": "1.76"
+        },
+        "management_fee": "1.70",
+        "fund_name": "PUBLIC WORLDWIDE EQUITY FUND",
+        "shariah_compliant": "-",
+        "distribution_policy": "INCIDENTAL",
+        "risk_level": "5\n(Very High)",
+        "phs_en": "phs_PUBLIC WORLDWIDE EQUITY FUND.pdf"
+    }
+}
