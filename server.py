@@ -13,14 +13,23 @@ def calculate_recommendation():
     if not isinstance(user_investment_amount, (int, float)) or not isinstance(
         sigma, (int, float)
     ):
-        return jsonify({"error": "Investment amount and sigma must be a number"})
+        print("ValueTypeError")
+        response = jsonify({"error": "Investment amount and sigma must be a number"})
+        response.status_code = 400
+        return response
 
     if sigma < 0 or sigma > 1:
-        return jsonify({"error": "Sigma must be between 0 and 1"})
+        print("OutOfRangeError")
+        response = jsonify({"error": "Sigma must be between 0 and 1"})
+        response.status_code = 400
+        return response
 
     recommendation = calculate(user_investment_amount, sigma)
 
-    return jsonify(recommendation)
+    response = jsonify(recommendation)
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    print(recommendation)
+    return response
 
 
 if __name__ == "__main__":
