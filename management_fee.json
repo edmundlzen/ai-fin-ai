@@ -1,0 +1,53 @@
+[
+    {
+        "0": "Switching charge",
+        "1": "To Recipient\nFund\nSwitch-out/\n(Exit)",
+        "2": "Equity / Mixed \nAsset / Balanced \nFunds",
+        "3": "Bond / Sukuk \nFunds",
+        "4": "Money Market \nFunds"
+    },
+    { "0": "", "1": "Within 90 days:", "2": "", "3": "", "4": "" },
+    {
+        "0": "",
+        "1": "- Loaded units\n- Partial-load units",
+        "2": "Up to 0.75%*\nUp to 0.50%*",
+        "3": "Up to 0.75%*\nUp to 0.50%*",
+        "4": "Up to 0.75%*\nUp to 0.50%*"
+    },
+    { "0": "", "1": "After 90 days:", "2": "", "3": "", "4": "" },
+    {
+        "0": "",
+        "1": "- Loaded units\n- Partial-load units",
+        "2": "Up to RM50\nUp to 0.50%*",
+        "3": "Up to RM50\nUp to 0.50%*",
+        "4": "Nil\nNil"
+    },
+    {
+        "0": "",
+        "1": "Notes:\n\u2022\tLoaded\tunits\tare\tunits\twhich\thave\tincurred\ta\tsales\tcharge\tof\t3%\tor\tmore\tthrough\tinvestments\t\nin equity/mixed asset/balanced funds.\n\u2022\tPartial-load\tunits\tare\tunits\twhich\thave\tincurred\ta\tsales\tcharge\tof\tless\tthan\t3%\tthrough\tinvestments\t\nin equity/mixed asset/balanced funds.\n* Subject to a minimum of RM50, whichever is the higher.",
+        "2": "",
+        "3": "",
+        "4": ""
+    },
+    {
+        "0": "Transfer charge",
+        "1": "Up to RM50 per transfer.",
+        "2": "",
+        "3": "",
+        "4": ""
+    },
+    {
+        "0": "Management fee",
+        "1": "1.60% per annum of the NAV.",
+        "2": "",
+        "3": "",
+        "4": ""
+    },
+    {
+        "0": "Trustee fee",
+        "1": "0.06% per annum of the NAV, subject to a minimum fee of RM18,000 and a  \nmaximum fee of RM600,000 per annum.",
+        "2": "",
+        "3": "",
+        "4": ""
+    }
+]
