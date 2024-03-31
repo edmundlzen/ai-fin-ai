@@ -14,7 +14,7 @@ NUM_OBJECTIVES = 2
 NUM_DECISION_VARIABLES = 2
 
 # Define bounds for decision variables
-BOUND_LOW, BOUND_UP = 0.1, 0.5
+BOUND_LOW, BOUND_UP = 0.7, 1.0
 
 
 def calculate(user_investment_amount, sigma):
@@ -201,7 +201,7 @@ def calculate(user_investment_amount, sigma):
     # )
 
     return {
-        "expense_ratio": round(best_solution[0], 2),
+        "expense_ratio": 1 + round(best_solution[0], 2),
         "portfolio_turnover_ratio": round(best_solution[1], 2),
         "risk_fitness": round(
             evaluate_risk(best_solution[0], best_solution[1], sigma), 2
