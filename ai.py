@@ -183,22 +183,92 @@ def calculate(user_investment_amount, sigma):
         key=lambda x: evaluate_return(x[0], x[1], sigma) * user_investment_amount,
     )
 
-    # # Print the best solution
-    # print(
-    #     f"Best solution for user investment amount of RM {USER_INVESTMENT_AMOUNT} and sigma of {sigma}"
+    # Print the best solution
+    print(
+        f"Best solution for user investment amount of RM {USER_INVESTMENT_AMOUNT} and sigma of {sigma}"
+    )
+    print(f"Generated {N_GEN} generations")
+    print(f"Expense ratio: {round(best_solution[0], 2)}")
+    print(f"Portfolio turnover ratio: {round(best_solution[1], 2)}")
+    print(
+        f"Risk fitness: {round(evaluate_risk(best_solution[0], best_solution[1], sigma), 2)}"
+    )
+    print(
+        f"Returns fitness: {round(evaluate_return(best_solution[0], best_solution[1], sigma), 2)}"
+    )
+    print(
+        f"Returns: {round(evaluate_return(best_solution[0], best_solution[1], sigma) * USER_INVESTMENT_AMOUNT, 2)}"
+    )
+
+    pareto_solutions = [list(pareto_front[i]) for i in range(len(pareto_front))]
+
+    # Plot the Portfolio turnover ratio vs Expense Ratio of the solutions
+
+    plt.figure(1)
+
+    plt.scatter(
+        [ind[0] for ind in population],
+        [ind[1] for ind in population],
+        c="blue",
+        label="Last Population",
+    )
+    plt.scatter(
+        [ind[0] for ind in pareto_solutions],
+        [ind[1] for ind in pareto_solutions],
+        c="red",
+        label="Pareto Front",
+    )
+    plt.scatter(
+        best_solution[0],
+        best_solution[1],
+        c="green",
+        label="Best Solution",
+    )
+
+    # Set the scale to log to better visualize the spread of solutions
+    plt.yscale("log")
+    plt.xscale("log")
+
+    plt.xlabel("Expense Ratio")
+    plt.ylabel("Portfolio turnover ratio")
+
+    plt.title("Expense Ratio vs Portfolio Turnover Ratio")
+    plt.legend()
+
+    # Show another plot with the returns fitness and risk fitness of the solutions
+
+    plt.figure(2)
+
+    plt.scatter(
+        [evaluate_risk(ind[0], ind[1], sigma) for ind in population],
+        [evaluate_return(ind[0], ind[1], sigma) for ind in population],
+        c="blue",
+        label="Last Population",
+    )
+
+    plt.scatter(
+        [evaluate_risk(ind[0], ind[1], sigma) for ind in pareto_solutions],
+        [evaluate_return(ind[0], ind[1], sigma) for ind in pareto_solutions],
+        c="red",
+        label="Pareto Front",
+    )
+
+    # plt.scatter(
+    #     evaluate_risk(best_solution[0], best_solution[1], sigma),
+    #     evaluate_return(best_solution[0], best_solution[1], sigma),
+    #     c="green",
+    #     label="Best Solution",
     # )
-    # print(f"Generated {N_GEN} generations")
-    # print(f"Expense ratio: {round(best_solution[0], 2)}")
-    # print(f"Portfolio turnover ratio: {round(best_solution[1], 2)}")
-    # print(
-    #     f"Risk fitness: {round(evaluate_risk(best_solution[0], best_solution[1], sigma), 2)}"
-    # )
-    # print(
-    #     f"Returns fitness: {round(evaluate_return(best_solution[0], best_solution[1], sigma), 2)}"
-    # )
-    # print(
-    #     f"Returns: {round(evaluate_return(best_solution[0], best_solution[1], sigma) * USER_INVESTMENT_AMOUNT, 2)}"
-    # )
+
+    plt.xlabel("Risk Fitness")
+    plt.ylabel("Returns Fitness")
+
+    # plt.xscale("log")
+    # plt.yscale("log")
+
+    plt.title("Risk Fitness vs Returns Fitness")
+    plt.legend()
+    plt.show()
 
     return {
         "expense_ratio": 1 + round(best_solution[0], 2),
@@ -216,79 +286,9 @@ def calculate(user_investment_amount, sigma):
         ),
     }
 
-    # pareto_solutions = [list(pareto_front[i]) for i in range(len(pareto_front))]
-
-    # # Plot the Portfolio turnover ratio vs Expense Ratio of the solutions
-
-    # plt.figure(1)
-
-    # plt.scatter(
-    #     [ind[0] for ind in population],
-    #     [ind[1] for ind in population],
-    #     c="blue",
-    #     label="Last Population",
-    # )
-    # plt.scatter(
-    #     [ind[0] for ind in pareto_solutions],
-    #     [ind[1] for ind in pareto_solutions],
-    #     c="red",
-    #     label="Pareto Front",
-    # )
-    # plt.scatter(
-    #     best_solution[0],
-    #     best_solution[1],
-    #     c="green",
-    #     label="Best Solution",
-    # )
-
-    # # Set the scale to log to better visualize the spread of solutions
-    # plt.yscale("log")
-    # plt.xscale("log")
-
-    # plt.xlabel("Expense Ratio")
-    # plt.ylabel("Portfolio turnover ratio")
-
-    # plt.title("Expense Ratio vs Portfolio Turnover Ratio")
-    # plt.legend()
-
-    # # Show another plot with the returns fitness and risk fitness of the solutions
-
-    # plt.figure(2)
-
-    # plt.scatter(
-    #     [evaluate_risk(ind[0], ind[1], sigma) for ind in population],
-    #     [evaluate_return(ind[0], ind[1], sigma) for ind in population],
-    #     c="blue",
-    #     label="Last Population",
-    # )
-
-    # plt.scatter(
-    #     [evaluate_risk(ind[0], ind[1], sigma) for ind in pareto_solutions],
-    #     [evaluate_return(ind[0], ind[1], sigma) for ind in pareto_solutions],
-    #     c="red",
-    #     label="Pareto Front",
-    # )
-
-    # # plt.scatter(
-    # #     evaluate_risk(best_solution[0], best_solution[1], sigma),
-    # #     evaluate_return(best_solution[0], best_solution[1], sigma),
-    # #     c="green",
-    # #     label="Best Solution",
-    # # )
-
-    # plt.xlabel("Risk Fitness")
-    # plt.ylabel("Returns Fitness")
-
-    # # plt.xscale("log")
-    # # plt.yscale("log")
-
-    # plt.title("Risk Fitness vs Returns Fitness")
-    # plt.legend()
-    # plt.show()
-
 
 def main():
-    calculate(USER_INVESTMENT_AMOUNT, 0.1, 0.008, 0.8)
+    calculate(USER_INVESTMENT_AMOUNT, 0.5)
 
 
 if __name__ == "__main__":
