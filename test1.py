@@ -171,7 +171,7 @@ def calculate(user_investment_amount, sigma):
     )
 
     pareto_front = tools.sortNondominated(
-        population, len(population), first_front_only=True
+        population, len(population), first_front_only=False
     )[0]
 
     # Extract solutions from the Pareto front
