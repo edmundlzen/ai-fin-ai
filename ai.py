@@ -151,9 +151,9 @@ def calculate(user_investment_amount, sigma):
     )
     toolbox.register("select", tools.selNSGA2)
 
-    POPULATION_SIZE = 300
+    POPULATION_SIZE = 1000
     N_GEN = 100
-    MUTATION_PROBABILITY = 0.2
+    MUTATION_PROBABILITY = 0.1
 
     population = toolbox.population(n=POPULATION_SIZE)
 
@@ -161,7 +161,7 @@ def calculate(user_investment_amount, sigma):
     algorithms.eaMuPlusLambda(
         population,
         toolbox,
-        mu=math.floor(POPULATION_SIZE / 3),
+        mu=POPULATION_SIZE,
         lambda_=POPULATION_SIZE,
         cxpb=1.0 - MUTATION_PROBABILITY,
         mutpb=MUTATION_PROBABILITY,
@@ -171,7 +171,7 @@ def calculate(user_investment_amount, sigma):
     )
 
     pareto_front = tools.sortNondominated(
-        population, len(population), first_front_only=True
+        population, len(population), first_front_only=False
     )[0]
 
     # Extract solutions from the Pareto front
@@ -204,36 +204,36 @@ def calculate(user_investment_amount, sigma):
 
     # Plot the Portfolio turnover ratio vs Expense Ratio of the solutions
 
-    plt.figure(1)
+    # plt.figure(1)
 
-    plt.scatter(
-        [ind[0] for ind in population],
-        [ind[1] for ind in population],
-        c="blue",
-        label="Last Population",
-    )
-    plt.scatter(
-        [ind[0] for ind in pareto_solutions],
-        [ind[1] for ind in pareto_solutions],
-        c="red",
-        label="Pareto Front",
-    )
-    plt.scatter(
-        best_solution[0],
-        best_solution[1],
-        c="green",
-        label="Best Solution",
-    )
+    # plt.scatter(
+    #     [ind[0] for ind in population],
+    #     [ind[1] for ind in population],
+    #     c="blue",
+    #     label="Last Population",
+    # )
+    # plt.scatter(
+    #     [ind[0] for ind in pareto_solutions],
+    #     [ind[1] for ind in pareto_solutions],
+    #     c="red",
+    #     label="Pareto Front",
+    # )
+    # plt.scatter(
+    #     best_solution[0],
+    #     best_solution[1],
+    #     c="green",
+    #     label="Best Solution",
+    # )
 
-    # Set the scale to log to better visualize the spread of solutions
-    plt.yscale("log")
-    plt.xscale("log")
+    # # Set the scale to log to better visualize the spread of solutions
+    # plt.yscale("log")
+    # plt.xscale("log")
 
-    plt.xlabel("Expense Ratio")
-    plt.ylabel("Portfolio turnover ratio")
+    # plt.xlabel("Expense Ratio")
+    # plt.ylabel("Portfolio turnover ratio")
 
-    plt.title("Expense Ratio vs Portfolio Turnover Ratio")
-    plt.legend()
+    # plt.title("Expense Ratio vs Portfolio Turnover Ratio")
+    # plt.legend()
 
     # Show another plot with the returns fitness and risk fitness of the solutions
 

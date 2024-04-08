@@ -151,9 +151,9 @@ def calculate(user_investment_amount, sigma):
     )
     toolbox.register("select", tools.selNSGA2)
 
-    POPULATION_SIZE = 300
+    POPULATION_SIZE = 1000
     N_GEN = 100
-    MUTATION_PROBABILITY = 0.2
+    MUTATION_PROBABILITY = 0.1
 
     population = toolbox.population(n=POPULATION_SIZE)
 
@@ -161,7 +161,7 @@ def calculate(user_investment_amount, sigma):
     algorithms.eaMuPlusLambda(
         population,
         toolbox,
-        mu=math.floor(POPULATION_SIZE / 3),
+        mu=POPULATION_SIZE,
         lambda_=POPULATION_SIZE,
         cxpb=1.0 - MUTATION_PROBABILITY,
         mutpb=MUTATION_PROBABILITY,
