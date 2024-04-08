@@ -1,5 +1,6 @@
 import array
 import math
+import os
 import random
 from deap import base, tools, algorithms, creator
 from functools import partial
@@ -152,23 +153,60 @@ def calculate(user_investment_amount, sigma):
     toolbox.register("select", tools.selNSGA2)
 
     POPULATION_SIZE = 1000
-    N_GEN = 100
+    N_GEN = 5
     MUTATION_PROBABILITY = 0.1
 
     population = toolbox.population(n=POPULATION_SIZE)
 
-    # Run the algorithm
-    algorithms.eaMuPlusLambda(
-        population,
-        toolbox,
-        mu=POPULATION_SIZE,
-        lambda_=POPULATION_SIZE,
-        cxpb=1.0 - MUTATION_PROBABILITY,
-        mutpb=MUTATION_PROBABILITY,
-        ngen=N_GEN,
-        stats=None,
-        verbose=True,
-    )
+    for i in range(N_GEN):
+        i = i + 1
+
+        # Run the algorithm
+        pop, logbook = algorithms.eaMuPlusLambda(
+            population,
+            toolbox,
+            mu=POPULATION_SIZE,
+            lambda_=POPULATION_SIZE,
+            cxpb=1.0 - MUTATION_PROBABILITY,
+            mutpb=MUTATION_PROBABILITY,
+            ngen=1,
+            stats=None,
+            verbose=False,
+        )
+
+        plt.figure(i)
+
+        plt.scatter(
+            [evaluate_risk(ind[0], ind[1], sigma) for ind in pop],
+            [evaluate_return(ind[0], ind[1], sigma) for ind in pop],
+            c="blue",
+            label="Generation " + str(i),
+        )
+
+        pareto_front = tools.sortNondominated(
+            population, len(population), first_front_only=False
+        )[0]
+
+        # Extract solutions from the Pareto front
+        pareto_solutions = [list(pareto_front[i]) for i in range(len(pareto_front))]
+
+        plt.scatter(
+            [evaluate_risk(ind[0], ind[1], sigma) for ind in pareto_solutions],
+            [evaluate_return(ind[0], ind[1], sigma) for ind in pareto_solutions],
+            c="red",
+            label="Pareto Front - Gen " + str(i),
+        )
+
+        plt.xlabel("Risk Fitness")
+        plt.ylabel("Returns Fitness")
+
+        plt.title("Risk Fitness vs Returns Fitness - Gen " + str(i))
+        plt.legend()
+        # plt.show()
+
+        if not os.path.exists("generations"):
+            os.makedirs("generations")
+        plt.savefig("generations/gen_" + str(i) + ".png")
 
     pareto_front = tools.sortNondominated(
         population, len(population), first_front_only=False
@@ -200,75 +238,30 @@ def calculate(user_investment_amount, sigma):
         f"Returns: {round(evaluate_return(best_solution[0], best_solution[1], sigma) * USER_INVESTMENT_AMOUNT, 2)}"
     )
 
-    pareto_solutions = [list(pareto_front[i]) for i in range(len(pareto_front))]
+    # pareto_solutions = [list(pareto_front[i]) for i in range(len(pareto_front))]
 
     # Plot the Portfolio turnover ratio vs Expense Ratio of the solutions
 
-    # plt.figure(1)
-
     # plt.scatter(
-    #     [ind[0] for ind in population],
-    #     [ind[1] for ind in population],
+    #     [evaluate_risk(ind[0], ind[1], sigma) for ind in population],
+    #     [evaluate_return(ind[0], ind[1], sigma) for ind in population],
     #     c="blue",
     #     label="Last Population",
     # )
+
     # plt.scatter(
-    #     [ind[0] for ind in pareto_solutions],
-    #     [ind[1] for ind in pareto_solutions],
+    #     [evaluate_risk(ind[0], ind[1], sigma) for ind in pareto_solutions],
+    #     [evaluate_return(ind[0], ind[1], sigma) for ind in pareto_solutions],
     #     c="red",
     #     label="Pareto Front",
     # )
-    # plt.scatter(
-    #     best_solution[0],
-    #     best_solution[1],
-    #     c="green",
-    #     label="Best Solution",
-    # )
 
-    # # Set the scale to log to better visualize the spread of solutions
-    # plt.yscale("log")
-    # plt.xscale("log")
+    # plt.xlabel("Risk Fitness")
+    # plt.ylabel("Returns Fitness")
 
-    # plt.xlabel("Expense Ratio")
-    # plt.ylabel("Portfolio turnover ratio")
-
-    # plt.title("Expense Ratio vs Portfolio Turnover Ratio")
+    # plt.title("Risk Fitness vs Returns Fitness")
     # plt.legend()
-
-    # Show another plot with the returns fitness and risk fitness of the solutions
-
-    plt.figure(2)
-
-    plt.scatter(
-        [evaluate_risk(ind[0], ind[1], sigma) for ind in population],
-        [evaluate_return(ind[0], ind[1], sigma) for ind in population],
-        c="blue",
-        label="Last Population",
-    )
-
-    plt.scatter(
-        [evaluate_risk(ind[0], ind[1], sigma) for ind in pareto_solutions],
-        [evaluate_return(ind[0], ind[1], sigma) for ind in pareto_solutions],
-        c="red",
-        label="Pareto Front",
-    )
-
-    # plt.scatter(
-    #     evaluate_risk(best_solution[0], best_solution[1], sigma),
-    #     evaluate_return(best_solution[0], best_solution[1], sigma),
-    #     c="green",
-    #     label="Best Solution",
-    # )
-
-    plt.xlabel("Risk Fitness")
-    plt.ylabel("Returns Fitness")
-
-    # plt.xscale("log")
-    # plt.yscale("log")
-
-    plt.title("Risk Fitness vs Returns Fitness")
-    plt.legend()
-    plt.show()
+    # plt.show()
 
     return {
         "expense_ratio": 1 + round(best_solution[0], 2),
